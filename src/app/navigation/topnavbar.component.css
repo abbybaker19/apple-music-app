@@ -1,0 +1,23 @@
+
+.input-group {
+    border-radius: 8px;
+    outline-style: 8px solid;
+    outline-color: dimgray;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin-left: 5px;
+}
+
+.input-group:active, .input-group:focus, .input-group:hover {
+    margin-left: 5px;
+    outline-style: solid;
+    outline-color: #d60017;
+}
+
+.input-group-text {
+    margin-left:10px;
+}
+
+.container{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,69 @@
+a.nav-link{
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px 24px;
+    text-align: left;
+    width: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    column-width: 400px;
+    color: #30353d;
+}
+
+a.nav-link.active {
+    background-color: #e6e6e7;
+    border-radius: 8px;
+    padding: 10px 24px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #30353d;
+}
+
+div {
+    column-width: 400px;
+    margin-bottom: 2000px;
+    margin-left: 15px;
+}
+
+.nav-item {
+    border-radius: 8px;
+    text-align: left;
+    width: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #30353d;
+}
+
+.nav-item:active, .nav-item:hover{
+    border-radius:8px;
+    background-color:#e6e6e7;
+    outline-style: solid;
+    outline-color: #e6e6e7;
+    color: #30353d;
+}
+
+.active {
+    color: #30353d;
+    border-radius: 8px;
+    font-style: normal;
+}
+
+.listen-now {
+    color: #30353d;
+    margin: 8px;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-style: normal;
+}
+
+.browse {
+    color: #30353d;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-style: normal;
+}
+
+.radio {
+    color: #30353d;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-style: normal;
+}
