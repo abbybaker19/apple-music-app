@@ -1,0 +1,25 @@
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.browse{
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.row{
+    margin-bottom: 25px;
+}
+
+.header{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,79 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="row">
+            <div class="browse">
+                Browse
+                <hr>
+            </div>
+        </div>
+        <div class="col-10">
+            <am-category-carousel>Loading...</am-category-carousel>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <am-category-card>Loading...</am-category-card>
+                            <div class="col-12" *ngFor="let category of category_list">
+                                <am-category-card title={{category.title}}>Loading...</am-category-card>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contianer-fluid">
+                <div class="header">
+                    <hr>
+                    New Music
+                </div>
+            </div>
+
+            <div class="container-fluid d-flex">
+                <am-vertical-card img="./assets/2 chainz.webp" title="Dope Don't Sell Itself" description="2 Chainz">
+                    Loading...
+                </am-vertical-card>
+                <am-vertical-card img="./assets/catch.webp" title="Catch Me if You Can" description="Adekunle Gold">
+                    Loading...
+                </am-vertical-card>
+                <am-vertical-card img="./assets/bastille.webp" title="Give Me The Future" description="Bastille">
+                    Loading...
+                </am-vertical-card>
+                <am-vertical-card img="./assets/few good things.webp" title="Few Good Things" description="Saba">
+                    Loading...
+                </am-vertical-card>
+                <am-vertical-card img="./assets/champ.webp" title="People's Champ" description="Upchurch">Loading...
+                </am-vertical-card>
+                <am-vertical-card img="./assets/DTFK.webp" title="DTFK" description="Yung Kayo">Loading...
+                </am-vertical-card>
+            </div>
+
+            <div class="container-fluid">
+                <div class="header">
+                    <hr>
+                    On the Air 24/7
+                </div>
+            </div>
+
+            <div class="container-fluid d-flex">
+                <am-horizontal-card img="./assets/country.webp" title="Apple Music Country" description=""> Loading...
+                </am-horizontal-card>
+                <am-horizontal-card img="./assets/am1.webp" title="Apple Music 1" description="">Loading...
+                </am-horizontal-card>
+                <am-horizontal-card img="./assets/hits.webp" title="Apple Music Hits" description="">Loading...
+                </am-horizontal-card>
+            </div>
+
+            <div class="container-fluid d-flex">
+                <div *ngFor="let product of products">
+                    <am-vertical-card class="mx-2" img={{product.img}} title={{product.title}}
+                        description={{product.description}}>
+                        Loading...
+                    </am-vertical-card>
+                </div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+</div>

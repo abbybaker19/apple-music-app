@@ -1,0 +1,32 @@
+.card {
+    width: 18rem;
+}
+
+.card-title{
+    font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+    color: #30353d;
+}
+
+.card-text{
+    font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+    color: #b5b5b5;
+}
+
+.nav-item{
+    background-color:white;
+    border: none;
+    text-align: left;
+    list-style-type: none;
+}
+
+.row{
+    margin-bottom: 25px;
+}
+
+.playlists{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
