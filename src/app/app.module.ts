@@ -18,7 +18,10 @@ import { RBNowPlaylistComponent } from './browse/rb-now-layout/rb-now-layout.com
 import { ListenNowComponent } from './browse/listen-now-layout.component';
 import { RadioComponent } from './browse/radio-layout.component';
 import { UserInfoComponent } from './user-info/user-info.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database'
 
 @NgModule({
   declarations: [
@@ -45,6 +48,8 @@ import { HttpClientModule } from '@angular/common/http'
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase()),
   ],
   providers: [],
   bootstrap: [AppComponent]

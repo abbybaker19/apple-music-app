@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "apple-music-app:build:production",
+            "firebaseProject": "apple-music-6e6d8",
+            "firebaseHostingSite": "apple-music-6e6d8"
+          }
         }
       }
     }

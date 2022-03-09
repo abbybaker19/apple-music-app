@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "apple-music-6e6d8"
+  },
+  "targets": {
+    "apple-music-6e6d8": {
+      "hosting": {
+        "apple-music-app": [
+          "apple-music-6e6d8"
+        ]
+      }
+    }
   }
 }
