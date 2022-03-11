@@ -1,9 +1,7 @@
-created products.service.ts with base and endpoint URLs to connect to my databse
+installed angular fire library
 
-added database entries on my firebase for each product listed in mock product list for a total of 6 entries
+removed HttpClient dependency from products.service.ts
 
-added ngOnInit interface to home-layout.component.ts
-    removed dependency on mock_product_list.ts from the constructor in home-layout.component.ts so it uses the backend now
-    added a print statement to the console that says "Fetching product data"
-    added a print statement that prints the entire data array to the console
-    used a for loop to print each entry of the data to the console
+implemented data fetching using angular fire in products.service.ts
+
+deployed website to the internet instead of localhost
