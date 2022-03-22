@@ -7,7 +7,8 @@ import { JoniPlaylistComponent } from './browse/joni-layout/joni-layout.componen
 import { AlistPopPlaylistComponent } from './browse/alist-pop-layout/alist-pop-layout.component';
 import { RBNowPlaylistComponent } from './browse/rb-now-layout/rb-now-layout.component';
 import { ListenNowComponent } from './browse/listen-now-layout.component';
-import { RadioComponent } from './browse/radio-layout.component';
+import { RadioComponent } from './browse/radio-layout.component'
+import { AddProductComponent } from './browse/add-product/add-product.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -17,7 +18,8 @@ const routes:Routes = [
   {path: 'a-list-pop', component: AlistPopPlaylistComponent},
   {path: 'rb-now', component: RBNowPlaylistComponent},
   {path: 'listen-now', component: ListenNowComponent},
-  {path: 'radio', component: RadioComponent}
+  {path: 'radio', component: RadioComponent},
+  {path: 'admin', component: AddProductComponent}
 ];
 
 @NgModule({
