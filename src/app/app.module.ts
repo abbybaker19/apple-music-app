@@ -9,7 +9,7 @@ import { SideNavBarComponent } from './navigation/sidenavbar/sidenavbar.componen
 import { CategoryCarouselComponent } from './browse/carousel-cards/category.carousel.component';
 import { VerticalCardComponent } from './browse/carousel-cards/vertical.card.component';
 import { HorizontalCardComponent } from './browse/carousel-cards/horizontal.card.component';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './browse/app-routing.module';
 import { NeilYoungPlaylistComponent } from './browse/neil-young-layout/neil-young-layout.component';
 import { HomeLayoutComponent } from './browse/home-layout.component';
 import { JoniPlaylistComponent } from './browse/joni-layout/joni-layout.component';
@@ -25,6 +25,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddProductComponent } from './browse/add-product/add-product.component';
+
 
 @NgModule({
   declarations: [

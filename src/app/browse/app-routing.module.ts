@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule,Routes } from '@angular/router';
-import { NeilYoungPlaylistComponent } from './browse/neil-young-layout/neil-young-layout.component';
-import { HomeLayoutComponent } from './browse/home-layout.component';
-import { JoniPlaylistComponent } from './browse/joni-layout/joni-layout.component';
-import { AlistPopPlaylistComponent } from './browse/alist-pop-layout/alist-pop-layout.component';
-import { RBNowPlaylistComponent } from './browse/rb-now-layout/rb-now-layout.component';
-import { ListenNowComponent } from './browse/listen-now-layout.component';
-import { RadioComponent } from './browse/radio-layout.component'
-import { AddProductComponent } from './browse/add-product/add-product.component';
+import { NeilYoungPlaylistComponent } from './neil-young-layout/neil-young-layout.component';
+import { HomeLayoutComponent } from './home-layout.component';
+import { JoniPlaylistComponent } from './joni-layout/joni-layout.component';
+import { AlistPopPlaylistComponent } from './alist-pop-layout/alist-pop-layout.component';
+import { RBNowPlaylistComponent } from './rb-now-layout/rb-now-layout.component';
+import { ListenNowComponent } from './listen-now-layout.component';
+import { RadioComponent } from './radio-layout.component';
+import { AddProductComponent } from './add-product/add-product.component';
+
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -19,7 +20,7 @@ const routes:Routes = [
   {path: 'rb-now', component: RBNowPlaylistComponent},
   {path: 'listen-now', component: ListenNowComponent},
   {path: 'radio', component: RadioComponent},
-  {path: 'admin', component: AddProductComponent}
+  {path: 'admin', component: AddProductComponent},
 ];
 
 @NgModule({
