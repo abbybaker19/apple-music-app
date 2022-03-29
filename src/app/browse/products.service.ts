@@ -1,4 +1,3 @@
-import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { ProductItemModel } from "./product-item.model";
 import { AngularFireDatabase } from "@angular/fire/compat/database"

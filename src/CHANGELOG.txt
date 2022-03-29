@@ -1,7 +1,9 @@
-installed angular fire library
+created new component add-product.component
 
-removed HttpClient dependency from products.service.ts
+installed angular form module in app.module.ts and app-routing.module.ts
+    created a route "admin" for the form
 
-implemented data fetching using angular fire in products.service.ts
+added addProduct method to products.service.ts to connect to database in order to add entries
 
-deployed website to the internet instead of localhost
+added addProduct method to add-product.component.ts
+    logs messages to the console
