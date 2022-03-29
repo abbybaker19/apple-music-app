@@ -1,1 +1,31 @@
-<p>add-product works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addProduct(postForm.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img" required="">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Title:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="title" required="">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Description
+                    </span>
+                    <input type="text" class="form-control" ngModel name="description" required="">
+                </div>
+
+                <button type="submit" class="btn btn-light">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

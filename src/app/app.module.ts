@@ -25,6 +25,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddProductComponent } from './browse/add-product/add-product.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -55,6 +56,7 @@ import { AddProductComponent } from './browse/add-product/add-product.component'
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
