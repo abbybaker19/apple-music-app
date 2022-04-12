@@ -1,9 +1,6 @@
-created new component add-product.component
+created authentication.component
 
-installed angular form module in app.module.ts and app-routing.module.ts
-    created a route "admin" for the form
+edited app-routing.module.ts
+    created a route "auth" for the form
 
-added addProduct method to products.service.ts to connect to database in order to add entries
-
-added addProduct method to add-product.component.ts
-    logs messages to the console
+connected to backend to add users to database
