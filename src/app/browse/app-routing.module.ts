@@ -9,6 +9,7 @@ import { RBNowPlaylistComponent } from './rb-now-layout/rb-now-layout.component'
 import { ListenNowComponent } from './listen-now-layout.component';
 import { RadioComponent } from './radio-layout.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { AuthenticationComponent } from '../auth/authentication/authentication.component';
 
 
 const routes:Routes = [
@@ -21,6 +22,7 @@ const routes:Routes = [
   {path: 'listen-now', component: ListenNowComponent},
   {path: 'radio', component: RadioComponent},
   {path: 'admin', component: AddProductComponent},
+  {path: 'auth', component: AuthenticationComponent}
 ];
 
 @NgModule({

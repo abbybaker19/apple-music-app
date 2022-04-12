@@ -26,6 +26,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddProductComponent } from './browse/add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 @NgModule({
@@ -48,6 +49,7 @@ import { FormsModule } from '@angular/forms';
     RadioComponent,
     UserInfoComponent,
     AddProductComponent,
+    AuthenticationComponent,
     
   ],
   imports: [
