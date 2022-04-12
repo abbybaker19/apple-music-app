@@ -21,7 +21,8 @@ export class AuthenticationService {
             "returnSecureToken":true
         };
 
-        return this.http.post(this.baseUrl + ":" + this.signUpEndpoint + "?" + "key="+environment.firebase.apiKey, requestBody);
+        return this.http.post(this.baseUrl + ":" + this.signUpEndpoint + "?" + 
+        "key="+environment.firebase.apiKey, requestBody);
 
     }
 }
