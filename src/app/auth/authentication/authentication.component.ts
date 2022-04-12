@@ -12,6 +12,7 @@ export class AuthenticationComponent implements OnInit {
   constructor(private auth:AuthenticationService) { }
 
   ngOnInit(): void {
+    
   }
 
   onSubmit(data:NgForm){
